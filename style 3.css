@@ -1,0 +1,167 @@
+/* CSS Reset */
+body{
+    text-align: center;
+    background-image: url(ab.jpg);
+    
+    
+background-size: cover; 
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* navigation bar*/
+#navbar{
+       display: flex;
+       align-items: center;
+}
+
+#navbar::before{
+    content: "";
+    background-color:rgb(15, 9, 1);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    Z-index: -1;
+    opacity: 0.2;
+}
+
+/* navigation bar: logo and image*/
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/*navigation bar: list and styling */
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:white;
+    background-color:moccasin;
+}
+
+/* Home Section */
+ #home{
+     display: flex;
+     flex-direction:column;
+     height: 500px;
+     padding: 100px 200px;
+     justify-content: center;
+     align-items: center;
+ }  
+
+ #home::before{
+    content: "";
+    background-image: url(hh.jpg.png);
+    position: absolute;
+    width: 100%;
+    Z-index: -1;
+    opacity: 500;
+}  
+#home h1{
+    color:white;
+    text-align: center;
+    font-size: larger;
+}
+
+#home p{
+  color:white;
+    text-align:left;
+   fon-size: 5.5rem;
+}
+#navbar ul li a:hover{
+    color:white;
+    background-color:black;
+}
+/* Service Section*/
+#service{
+    margin: 34px;
+    display: flex;
+
+
+}
+#service.box{
+    border:2px brown;
+
+}
+#service.box img{
+    height:60px;
+    margin: auto;
+    display: center;
+
+}
+
+/* utility class */
+.primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    margin-top: -50px;
+    color:white;
+
+}
+.h-seconadry{
+    font-size: 2.8rem;
+    padding: 12px;
+    color:white;
+}
+.btn{
+    padding: 6px 20px;
+    border: 100px white ;
+    background-color:white;
+    color:white;
+    margin: 17px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+ .section2{
+     margin-top: 100px;
+
+ }
+ .box img{
+     margin-top: 50px;
+     width: 500px;
+ }
+ /* utility class */
+
+ .primary{
+    font-size: 8.8rem;
+    padding: 12px;
+    margin-top: -50px;
+    color:white;
+ }
+.h-primary{
+ color: black;
+ font-size: xx-large;
+
+}

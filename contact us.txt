@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lange="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <title>Best Online Food Service in India | my online meal.com</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    

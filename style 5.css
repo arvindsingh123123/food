@@ -1,0 +1,8 @@
+.container img{
+    align-items: center;   
+    background-size: cover;
+    margin-top: 7%;
+    height: 2000px;
+    width: 2000px;
+    padding-left: 30%;
+}
